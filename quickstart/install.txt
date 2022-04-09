@@ -1,0 +1,3 @@
+how to install golang ?
+
+see at https://go.dev/doc/install
