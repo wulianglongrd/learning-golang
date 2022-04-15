@@ -2,7 +2,7 @@ how to install golang ?
 
 see at https://go.dev/doc/install
 
-
+goland 安装激活 https://xclient.info/a/b11e938b-10b5-83bc-7cc7-3012aba930f8.html
 goland 安装和破解 https://segmentfault.com/a/1190000041522612
 
 项目组织：
