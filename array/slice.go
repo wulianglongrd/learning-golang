@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	sliceDefine()
 	sliceFromArray()
+  sliceMakeAndNew()
 }
 
 func sliceDefine() {
@@ -35,4 +36,14 @@ func sliceFromArray() {
 	arr[2] = 200
 	fmt.Println(s1) // [100 200]
 	fmt.Println(arr) // [1 100 200 4 5]
+}
+
+// New 返回指针地址 more @see func description
+// make 返回第一个元素，可预设内存空间，避免未来的内存拷贝 more @see func description
+func sliceMakeAndNew()  {
+  s1 := new([]int)
+  fmt.Println(s1) // &[]
+
+  s2 := make([]int, 3)
+  fmt.Println(s2) // [0 0 0]
 }
