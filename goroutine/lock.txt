@@ -1,0 +1,13 @@
+## sync.Mutex 互斥锁
+
+## sync.RWMutex 读写分离锁
+- 不限制并发读，限制并发写和并发读写
+
+## sync.WaitGroup
+- 等待一组 goroutine 返回
+
+## sync.Once
+- 保证某代码只执行一次
+
+## sync.Cond
+- 让一组 goroutine 在满足特定条件时被唤醒

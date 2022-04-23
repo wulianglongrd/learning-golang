@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("-----------")
 	mapUpdate()
 	fmt.Println("-----------")
-	mapLenth()
+  mapLength()
 }
 
 func mapDefine() {
@@ -47,7 +47,7 @@ func mapUpdate() {
 }
 
 
-func mapLenth() {
+func mapLength() {
 	m := map[string]string{"foo": "11", "bar": "22"}
 	fmt.Println(len(m)) // 2
 }
