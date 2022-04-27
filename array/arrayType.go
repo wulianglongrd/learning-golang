@@ -22,8 +22,8 @@ func sizeType() {
 	a := [3]int{1, 2, 3}
 	var b [4]int
 
-	fmt.Printf("a type is %T\n", a)
-	fmt.Printf("b type is %T\n", b)
+	fmt.Printf("a type is %T\n", a) // [3]int
+	fmt.Printf("b type is %T\n", b) // [4]int
 
 	// b = a // cannot use a (variable of type [3]int) as type [4]int in assignment
 }

@@ -6,7 +6,7 @@ import (
 
 func main() {
 	deferExample()
-  fmt.Println("------------")
+	fmt.Println("------------")
 	deferExample2()
 }
 
@@ -41,10 +41,10 @@ func deferExample2() {
 1
 panic: runtime error: integer divide by zero
 
-goroutine 1 [running]:
+concurrency 1 [running]:
 main.deferExample2()
   /Users/logx/go/src/learning-golang/function/defer.go:32 +0x69
 main.main()
   /Users/logx/go/src/learning-golang/function/defer.go:10 +0x5c
 exit status 2
- */
+*/

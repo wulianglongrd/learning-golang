@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("-----------")
 	mapUpdate()
 	fmt.Println("-----------")
-  mapLength()
+	mapLength()
 }
 
 func mapDefine() {
@@ -27,7 +27,10 @@ func mapDefine() {
 }
 
 func readMap() {
-	m := map[string]string{"foo": "11", "bar": "22"}
+	m := map[string]string{
+		"foo": "11",
+		"bar": "22",
+	}
 
 	v, ok := m["xxx"]
 	fmt.Println(ok, v)
@@ -38,16 +41,21 @@ func readMap() {
 
 // map 是引用类型
 func mapUpdate() {
-	m := map[string]string{"foo": "11", "bar": "22"}
+	m := map[string]string{
+		"foo": "11",
+		"bar": "22",
+	}
 	m2 := m
 
 	m2["foo"] = "xxx"
-	fmt.Println(m) // map[bar:22 foo:xxx]
+	fmt.Println(m)  // map[bar:22 foo:xxx]
 	fmt.Println(m2) // map[bar:22 foo:xxx]
 }
 
-
 func mapLength() {
-	m := map[string]string{"foo": "11", "bar": "22"}
+	m := map[string]string{
+		"foo": "11",
+		"bar": "22",
+	}
 	fmt.Println(len(m)) // 2
 }
