@@ -1,10 +1,10 @@
 package main
 
 import (
-  "fmt"
-  "github.com/wulianglongrd/learning-golang/util"
+	"fmt"
+	"github.com/wulianglongrd/learning-golang/util"
 )
 
-func main()  {
-  fmt.Println(util.GlobalConfig)
+func main() {
+	fmt.Println(util.GlobalConfig)
 }
