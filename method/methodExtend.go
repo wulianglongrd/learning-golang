@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// https://go.dev/doc/faq#inheritance
 func main() {
 	foo := Bird{Animal{"foo"}, true}
 	bar := Fish{Animal{"bar"}, true}
