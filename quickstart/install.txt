@@ -16,6 +16,9 @@ IDE
 - goland 下载 https://www.jetbrains.com/zh-cn/go/download/other.html
 - goland 安装激活 https://xclient.info/a/b11e938b-10b5-83bc-7cc7-3012aba930f8.html
 - goland 安装和破解 https://segmentfault.com/a/1190000041522612
+tips:
+  goland 2021.2.x 有个  Cannot convert 'nil' to type 'any' 的bug，导致编译器一直提示错误
+  @see https://stackoverflow.com/questions/71676165/go-1-18-migration-issues-cannot-convert-nil-to-type-any
 
 项目组织：
 源代码都是存放在GOPATH的src目录下，如果有多个项目的时候，是通过包来组织项目目录结构的。
