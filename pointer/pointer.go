@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println("--------------")
 
-	modifySlice(arr[:]);
+	modifySlice(arr[:])
 	fmt.Println(arr) // [1 222 3]
 }
 
