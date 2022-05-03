@@ -18,9 +18,10 @@ func structPointer() {
 	fmt.Println(p)  // &{go in action 1}
 	fmt.Println(*p) // {go in action 1}
 
-	fmt.Println(p.title, p.bookId)
-	fmt.Println("--------------")
+	fmt.Println(p.title, p.bookId) // go in action 1
+
+	fmt.Println()
 
 	p.title = "english book"
-	fmt.Println(p)
+	fmt.Println(p) // &{english book 1}
 }

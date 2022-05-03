@@ -41,5 +41,5 @@ func canNotCompare() {
 	fmt.Println(image2)
 
 	// error : 不能比较
-	// fmt.Println(image1 == image2)
+	//fmt.Println(image1 == image2) // invalid operation: image1 == image2 (struct containing map[int]int cannot be compared)
 }

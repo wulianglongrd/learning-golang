@@ -9,9 +9,8 @@
   - array、slice
 - string
 - struct
-  - struct、tag
+  - struct、tag、json
 - map
-  - map、json
 - cli
   - command-line flag
 - interface
