@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learning-golang/util"
+	"github.com/wulianglongrd/learning-golang/common"
 )
 
 // golang两个保留函数： main 和 init
