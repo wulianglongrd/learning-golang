@@ -28,8 +28,8 @@ func main() {
 	if err != nil {
 		// 使用断言，如果断言成功，则可使用断言的结果获取更多信息
 		if err, ok := err.(*areaError); ok {
-			fmt.Printf("radius %0.2f is less than zero\n", err.radius)
-			fmt.Println(err.err)
+			fmt.Printf("radius %0.2f is less than zero\n", err.radius) // radius -1.00 is less than zero
+			fmt.Println(err.err)                                       // radius is negative
 			return
 		}
 

@@ -28,11 +28,11 @@ func main() {
 	radius := -1.0
 	_, err := errorsNew(radius)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(err) // radius is less than zero
 	}
 
 	_, err2 := errorsFmt(radius)
 	if err2 != nil {
-		fmt.Println(err2)
+		fmt.Println(err2) // radius -1.00 is less than zero
 	}
 }
