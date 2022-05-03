@@ -13,3 +13,11 @@ func init() {
 func Sum(a, b int) int {
 	return a + b
 }
+
+func SameParamTypeSum(a, b int) int {
+	return a + b
+}
+
+func MultiReturnSum(a, b int) (int, bool) {
+	return a + b, true
+}

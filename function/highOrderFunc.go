@@ -9,7 +9,7 @@ func main() {
 
 	fmt.Println("=======================")
 
-	res := callbackFunc(1, 2, sum)
+	res := callbackFunc(1, 2, sumInt)
 	fmt.Println(res)
 
 	fmt.Println("=======================")
@@ -49,19 +49,19 @@ func callbackFunc(a, b int, fun func(int, int) int) int {
 func closureFunc() {
 	res1 := incr()
 	fmt.Printf("%T\n", res1)
-  fmt.Println(res1)
+	fmt.Println(res1)
 
-  v1 := res1()
-  v2 := res1()
-  fmt.Println(v1)
-  fmt.Println(v2)
+	v1 := res1()
+	v2 := res1()
+	fmt.Println(v1)
+	fmt.Println(v2)
 
-  fmt.Println("----")
+	fmt.Println("----")
 
-  res2 := incr()
-  fmt.Println(res2())
-  fmt.Println(res2())
-  fmt.Println(res2())
+	res2 := incr()
+	fmt.Println(res2())
+	fmt.Println(res2())
+	fmt.Println(res2())
 }
 
 // 函数返回一个 func() int 签名的函数
@@ -74,6 +74,6 @@ func incr() func() int {
 	return fun
 }
 
-func sum(a, b int) int {
+func sumInt(a, b int) int {
 	return a + b
 }

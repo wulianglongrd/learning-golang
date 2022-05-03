@@ -2,15 +2,8 @@ package main
 
 import (
 	"fmt"
+	util "github.com/wulianglongrd/learning-golang/common"
 )
-
-func main() {
-	fmt.Println("1 + 2 =", sum(1, 2))
-	fmt.Println("1 + 2 =", sameParamTypeSum(1, 2))
-
-	ok, val := muliReturn(1, 1)
-	fmt.Println(ok, val)
-}
 
 /*
   函数基本语法
@@ -18,15 +11,10 @@ func main() {
     return value1, value2
   }
 */
+func main() {
+	fmt.Println("1 + 2 =", util.Sum(1, 2))
+	fmt.Println("1 + 2 =", util.SameParamTypeSum(1, 2))
 
-func sum(a int, b int) int {
-	return a + b
-}
-
-func sameParamTypeSum(a, b int) int {
-	return a + b
-}
-
-func muliReturn(a, b int) (bool, int) {
-	return true, a + b
+	ok, val := util.MultiReturnSum(1, 1)
+	fmt.Println(ok, val)
 }
