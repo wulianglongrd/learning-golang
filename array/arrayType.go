@@ -13,8 +13,8 @@ func valueType() {
 
 	b[0] = "xxx" // go中的数组是值类型，而不是引用类型，b修改不会返应到a
 
-	fmt.Println(a)
-	fmt.Println(b)
+	fmt.Println(a) // [foo bar]
+	fmt.Println(b) // [xxx bar]
 }
 
 // 数组的大小是类型的一部份
