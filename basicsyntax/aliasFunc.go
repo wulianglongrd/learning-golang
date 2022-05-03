@@ -7,4 +7,4 @@ package main
 //
 //}
 
-// 解决以上问题可以使用新的类型替代别名：type MyDuration time.Duration
+// 解决以上问题可以使用`新的类型`替代`别名`：type MyDuration time.Duration
