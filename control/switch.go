@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	switchBasic()
-	switchFallthrough()
-	switchOmitExpression()
-	swithType("a")
-	swithType(1)
-	swithType(nil)
-	swithType(true)
+	//switchBasic()
+	//switchFallthrough()
+	//switchOmitExpression(90)
+	switchType("a")
+	switchType(1)
+	switchType(nil)
+	switchType(true)
 }
 
 func switchBasic() {
@@ -45,8 +45,7 @@ func switchFallthrough() {
 	fmt.Println(score, grade)
 }
 
-func switchOmitExpression() {
-	score := 90
+func switchOmitExpression(score int) {
 	grade := ""
 	switch {
 	case score >= 90:
@@ -61,8 +60,7 @@ func switchOmitExpression() {
 	fmt.Println(score, grade)
 }
 
-func swithType(x interface{}) {
-
+func switchType(x interface{}) {
 	switch i := x.(type) {
 	case nil:
 		fmt.Printf("%v type is %T\n", x, i)
