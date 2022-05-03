@@ -2,8 +2,6 @@
 golang learning notebook
 
 ## contents
-
----
 - quick start
   - why go、install、cmd、proxy etc...
 - basic syntax
@@ -43,8 +41,6 @@ golang learning notebook
   - common struct define
 
 ## learn links
-
----
 - [go语言中文网](https://www.qfgolang.com/)
 - [The Go Programming Language Specification](https://golang.google.cn/ref/spec)
 - [concurrent programming](https://yourbasic.org/golang/goroutines-explained/)
