@@ -12,3 +12,4 @@ golang learning notebook
 - [high performance go](https://github.com/geektutu/high-performance-go)
 - [cncamp/golang](https://github.com/cncamp/golang)
 - [frequently Asked Questions(official)](https://go.dev/doc/faq#different_method_sets)
+- [Go 语言设计与实现](https://draveness.me/golang/)
