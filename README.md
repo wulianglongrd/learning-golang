@@ -13,3 +13,4 @@ golang learning notebook
 - [cncamp/golang](https://github.com/cncamp/golang)
 - [frequently Asked Questions(official)](https://go.dev/doc/faq#different_method_sets)
 - [Go 语言设计与实现](https://draveness.me/golang/)
+- [Effective Go](https://go.dev/doc/effective_go)
